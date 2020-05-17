@@ -2,7 +2,7 @@
 
 Just a simple bot for scattering data all over Twitter. I'm kidding, he just retweets some things.
 
-```
+```js
 const Scatterbot = require('Scatterbot');
 
 const config = {
@@ -21,15 +21,13 @@ bot.track(params);
 
 ## Installation
 
-```
-npm install scatterbot
-```
+`npm install scatterbot`
 
 ## Getting Started
 
 To use this bot, you will need valid Twitter developer credentials. Here's a [guide](https://developer.twitter.com/en/apply-for-access) on how to get them.
 
-```
+```js
 const Scatterbot = require('Scatterbot');
 ```
 
@@ -37,7 +35,7 @@ const Scatterbot = require('Scatterbot');
 
 To start tracking the words you want, you need to pass all the credentials to the bot constructor.
 
-```
+```js
 const config = {
     consumer_key: 'add_consumer_key',
     consumer_secret: 'add_consumer_secret',
@@ -47,18 +45,18 @@ const config = {
 ```
 You could pass this credentials through environment variables too.
 
-```
+```js
 const config = {
     consumer_key: process.env.CONSUMER_KEY,
     consumer_secret: process.env.CONSUMER_SECRET,
     access_token_key: process.env.TACCESS_TOKEN_KEY,
-     access_token_secret: process.env.ACCESS_TOKEN_SECRET
+    access_token_secret: process.env.ACCESS_TOKEN_SECRET
 }
 ```
 
 With the configurations added, just create your bot.
 
-```
+```js
 const bot = new Scatterbot(config);
 ```
 
@@ -66,7 +64,7 @@ const bot = new Scatterbot(config);
 
 After the initial configuration, now you are ready to track some specific terms.
 
-```
+```js
 const params = { track: '#scatter,#bot'}
 
 bot.track(params);
@@ -74,7 +72,7 @@ bot.track(params);
 
 ## Additional Information
 
-This package abstracts some basic functionality of the [Twitter npm module](https://www.npmjs.com/package/twitter) to make it easy to track and retweets hashtags, facilitating the user of retweet bots and similars.
+This package abstracts some basic functionality of the [Twitter npm module](https://www.npmjs.com/package/twitter) to make it easy to track and retweets hashtags, facilitating the users of retweet bots and similars.
 
 ## License
 
