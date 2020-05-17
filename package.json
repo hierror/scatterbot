@@ -4,15 +4,13 @@
   "description": "Simple Twitter bot to automate retweets",
   "main": "Scatterbot.js",
   "keywords": [
+    "retweet-bot",
     "retweet",
     "twitter",
     "bot",
     "tweet",
     "status",
-    "twit",
-    "automate",
-    "scatter",
-    "disseminate"
+    "twit"
   ],
   "author": "hierror",
   "license": "MIT",
