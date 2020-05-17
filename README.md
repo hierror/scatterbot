@@ -3,7 +3,7 @@
 Just a simple bot for scattering data all over Twitter. I'm kidding, he just retweets some things.
 
 ```js
-const Scatterbot = require('Scatterbot');
+const Scatterbot = require('scatterbot');
 
 const config = {
     consumer_key: 'd25fe54c17d9cb57ce698b3c37398aad',
@@ -28,7 +28,7 @@ bot.track(params);
 To use this bot, you will need valid Twitter developer credentials. Here's a [guide](https://developer.twitter.com/en/apply-for-access) on how to get them.
 
 ```js
-const Scatterbot = require('Scatterbot');
+const Scatterbot = require('scatterbot');
 ```
 
 ### Configuring the credentials
@@ -62,7 +62,7 @@ const bot = new Scatterbot(config);
 
 ### Tracking!
 
-After the initial configuration, now you are ready to track some specific terms.
+After the initial configuration, now you are ready to track some specific terms. To pass more than one term, separate them with commas, like shown in the example below.
 
 ```js
 const params = { track: '#scatter,#bot'}
