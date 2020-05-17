@@ -1,0 +1,22 @@
+{
+  "name": "scatterbot",
+  "version": "1.0.0",
+  "description": "Simple Twitter bot to automate retweets",
+  "main": "Scatterbot.js",
+  "keywords": [
+    "retweet",
+    "twitter",
+    "bot",
+    "tweet",
+    "status",
+    "twit",
+    "automate",
+    "scatter",
+    "disseminate"
+  ],
+  "author": "hierror",
+  "license": "MIT",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
+}
